@@ -1,0 +1,17 @@
+# Python
+__pycache__/
+*.py[cod]
+venv/
+.venv/
+.env
+
+# Node
+node_modules/
+
+# Large model checkpoints (exceed GitHub's 100MB limit)
+*.pth
+
+# Misc
+.DS_Store
+.vscode/
+.idea/
